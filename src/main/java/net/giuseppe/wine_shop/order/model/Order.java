@@ -9,6 +9,8 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Order {
+    @JsonProperty("codigo")
     private String code;
+    @JsonProperty("quantidade")
     private Integer quantity;
 }
