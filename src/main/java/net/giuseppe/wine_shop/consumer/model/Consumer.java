@@ -13,9 +13,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Consumer {
-    @JsonProperty("nome")
     private String name;
     private String cpf;
-    @JsonProperty("compras")
     private List<Order> order;
 }
